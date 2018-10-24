@@ -99,10 +99,9 @@
             }],
             ['OS=="mac"', {
                 'xcode_settings': {
-                    'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
-                    'OTHER_CPLUSPLUSFLAGS' : [ '-mmacosx-version-min=10.7',
-                          '-stdlib=libc++',
-                          '-std=c++0x']
+                    'CLANG_CXX_LIBRARY': 'libc++',
+                    'MACOSX_DEPLOYMENT_TARGET': '10.8',
+                    'GCC_ENABLE_CPP_EXCEPTIONS': 'YES'
                 },
                 'include_dirs': ['/usr/include/malloc']
             }],
@@ -214,10 +213,9 @@
             }],
             ['OS=="mac"', {
                 'xcode_settings': {
-                    'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
-                    'OTHER_CPLUSPLUSFLAGS' : [ '-mmacosx-version-min=10.7',
-                          '-stdlib=libc++',
-                          '-std=c++0x']
+                    'CLANG_CXX_LIBRARY': 'libc++',
+                    'MACOSX_DEPLOYMENT_TARGET': '10.8',
+                    'GCC_ENABLE_CPP_EXCEPTIONS': 'YES'
                 },
                 'include_dirs': ['/usr/include/malloc']
             }],
@@ -272,10 +270,9 @@
             }],
             ['OS=="mac"', {
                 'xcode_settings': {
-                    'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
-                    'OTHER_CPLUSPLUSFLAGS' : [ '-mmacosx-version-min=10.7',
-                          '-stdlib=libc++',
-                          '-std=c++0x']
+                    'CLANG_CXX_LIBRARY': 'libc++',
+                    'MACOSX_DEPLOYMENT_TARGET': '10.8',
+                    'GCC_ENABLE_CPP_EXCEPTIONS': 'YES'
                 },
                 'include_dirs': ['/usr/include/malloc']
             }],
